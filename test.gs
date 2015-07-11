@@ -1,4 +1,4 @@
-threaten.as.bs = True, if abs.(indexOf1.(snd.as) - indexOf1.(snd.bs)) > 0
+threaten.as.bs = True, if abs.(indexOf1.(snd.as) - indexOf1.(snd.bs)) == 0
                = True, if abs.(fst.as - fst.bs)  == abs.(indexOf1.(snd.as) - indexOf1.(snd.bs))
                = False, otherwise
 
